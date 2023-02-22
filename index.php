@@ -9,19 +9,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <title>Landing Page</title>
 </head>
-<body style="
-    text-align: center; 
-    background-color: #ccc; 
-    font-family: 'Roboto', sans-serif;
-">
-    <div style="background-color: #fff; padding: 16px 0;">
-        <h2 style="font-family: 'Ubuntu', sans-serif;">Landing Page</h2>
+<body class="body-styles">
+    <div class="main">
+        <h2>Landing Page</h2>
         <div>
             <div>
-                <img style="
-                    width: 300px; 
-                    border-radius: 4px;
-                " src="/public/daily-quote.png" alt="daily quote">
+                <img style=" width: 300px;" src="/public/daily-quote.png" alt="image">
             </div>
             <div>
                 <p>This is a descriptive text!</p>
