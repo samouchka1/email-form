@@ -1,0 +1,16 @@
+.form-area {
+    margin: 0 auto;
+    width: 300px;
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0px 3px 5px -1px #00000033,0px 6px 10px 0px #00000024,0px 1px 18px 0px #0000001f;
+}
+
+.form-button {
+    font-size: 15px; 
+    background-color: #6ade6a;
+    padding: 6px;
+    border-radius: 4px;
+    margin-top: 10px;
+    border: solid white 1px;
+}
