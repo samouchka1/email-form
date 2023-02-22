@@ -1,10 +1,10 @@
 .body-styles: {
-    text-align: center; 
     background-color: #ccc; 
     font-family: 'Roboto', sans-serif;
 }
 
 .main {
+    text-align: center; 
     background-color: #fff; 
     padding: 16px 0;
 }
