@@ -22,9 +22,10 @@
         </div>
 
         <?php include('./components/form.php'); ?>
-        <?php echo getForm() ?>
 
     </div>
+
+    <script src="/js/form.js"></script>
 </body>
-<script src="/js/form.js"></script>
+
 </html>
