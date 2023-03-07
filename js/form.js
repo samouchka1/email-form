@@ -9,22 +9,20 @@ emailForm.addEventListener('submit', function(event) {
 
   fetch('/api/form.php', {
     method: 'POST',
-    headers: {
-        "Content-Type": "application/json"
-    },
+    headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ email: email })
   })
   .then(response => response.json())
   .then(data => {
     if (data.success) {
-      responseDiv.innerHTML = 'Thanks for signing up!';
+      responseDiv.textContent = 'Thanks for signing up!';
       emailInput.value = '';
     } else {
         console.log('failed')
-      responseDiv.innerHTML = 'Error: ' + data.message;
+      responseDiv.textContent = 'Error: ' + data.message;
     }
   })
   .catch(error => {
-    responseDiv.innerHTML = 'Error: ' + error.message;
+    responseDiv.textContent = 'Error: ' + error.message;
   });
 });
